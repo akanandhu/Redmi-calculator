@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div id="body">
+        <script src="./script.js"></script>
+        <div id="main">
+        <div id="calc">
+            <div id="screen">
+                    <input type="text" id="text-1" placeholder="0">
+            </div>
+            <div>
+             <div id="buttons">
+                <button id="btn" class="orangeButton" onclick="clearButton()">AC</button>
+                <button id="btn" class="orangeButton" onclick="ceButton()">CE</button>
+                <button id="btn"class="orangeButton" onclick="buttonClick('%')">%</button>
+                <button id="btn"class="orangeButton" onclick="buttonClick('/')">&div;</button>
+
+                </div>
+            
+              <div id="buttons">
+                <button id="btn" onclick="buttonClick(7)">7</button>
+                <button id="btn" onclick="buttonClick(8)">8</button>
+                <button id="btn" onclick="buttonClick(9)">9</button>
+                <button id="btn"class="orangeButton" onclick="buttonClick('*')">x</button>
+
+             </div>
+             <div id="buttons">
+                <button id="btn" onclick="buttonClick(4)">4</button>
+                <button id="btn" onclick="buttonClick(5)">5</button>
+                <button id="btn" onclick="buttonClick(6)">6</button>
+                <button id="btn" class="orangeButton" onclick="buttonClick('-')">-</button>
+
+              </div>
+             <div id="buttons">
+                <button id="btn" onclick="buttonClick(1)">1</button>
+                <button id="btn" onclick="buttonClick(2)">2</button>
+                <button id="btn" onclick="buttonClick(3)">3</button>
+                <button id="btn"class="orangeButton" onclick="buttonClick('+')">+</button>
+
+             </div>
+             <div id="buttons" class="last-line">
+                <button id="btn" class="null-button"></button>
+                <button id="btn" onclick="buttonClick(0)">0</button>
+                <button id="btn" onclick="buttonClick('.')">.</button>
+                
+                <button  class="equalButton" id="btn" onclick="equalToButton()">=</button>
+                
+             </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+</body>
+<html></html>
